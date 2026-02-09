@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snack Store</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+header{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#ff7a18;
+}
+
+/* HERO */
+
+.hero{
+    background:linear-gradient(45deg,#ff7a18,#ffb347);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+/* PRODUCTS */
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+}
+
+.product{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.product:hover{
+    transform:translateY(-5px);
+}
+
+.product img{
+    width:100%;
+    border-radius:8px;
+}
+
+.price{
+    color:#ff7a18;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+/* BUTTON */
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:#ff7a18;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e06510;
+}
+
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">🛍 Snack Store</div>
+</header>
+
+<section class="hero">
+    <h1>Best Snacks Ever Made</h1>
+    <p>Fresh • Crunchy • Questionably Addictive</p>
+</section>
+
+<section class="products">
+
+    <div class="product">
+        <img src="image1.png">
+        <h3>Turbo Masala Chips</h3>
+        <p class="price">₹50</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="image2.png">
+        <h3>Normal Chocolate Bar</h3>
+        <p class="price">₹80</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="image3.png">
+        <h3>Quantum Cookies</h3>
+        <p class="price">₹70</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="image4.png">
+        <h3>Hyper Energy Drink</h3>
+        <p class="price">₹120</p>
+        <button>Buy Now</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Snack Store. Totally Legit.</p>
+</footer>
+
+</body>
+</html>
